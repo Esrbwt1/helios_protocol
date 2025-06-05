@@ -3,6 +3,7 @@
 from .ledger import InMemoryLedger # Use a relative import
 import datetime
 from agents.simple_verifier_agent import SimpleVerifierAgent # New import
+from agents.known_facts_agent import KnownFactsAgent # New import
 
 class HeliosCoreNode:
     def __init__(self, node_id="helios_node_001"):
@@ -19,6 +20,9 @@ class HeliosCoreNode:
         """
         simple_agent = SimpleVerifierAgent()
         self.register_ai_agent(simple_agent.agent_id, simple_agent)
+        
+        known_facts_agent = KnownFactsAgent() # Instantiate new agent
+        self.register_ai_agent(known_facts_agent.agent_id, known_facts_agent) # Register it
 
     def submit_new_claim(self, content_hash, content_type, submitter_id, metadata=None):
         """
