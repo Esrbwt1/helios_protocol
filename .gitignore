@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+pip-selfcheck.json
+pip-log.txt
+
+# VS Code
+.vscode/
+
+# SQLite
+*.db
+*.db-journal
+*.sqlite3
+*.sqlite3-journal
+
+# IDE specific
+.idea/
+*.swp
+*.swo
