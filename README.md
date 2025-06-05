@@ -2,6 +2,8 @@
 
 Helios Protocol is an experimental project aiming to build a decentralized truth and provenance layer for digital information.
 
+For a detailed understanding of the project's vision, architecture, and roadmap, please see the [Helios Protocol Whitepaper v1.0 (MVP1 Release)](docs/whitepaper_v1.md).
+
 This repository contains the Minimum Viable Product (MVP1) of a Helios Node. MVP1 is a locally runnable demonstration of core concepts, including:
 *   A basic in-memory ledger for storing "claims" about digital content.
 *   A node structure that manages claims and interacts with verification agents.
