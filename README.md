@@ -86,6 +86,15 @@ This will initialize a demo node, submit several sample claims, and run the regi
 # How to Contribute (Future)
 Once community channels are established, contribution guidelines will be provided. For now, feel free to explore the code. Feedback is welcome once an official communication channel is announced.
 
+## Community & Communication
+
+This project is in its very early stages. Initial channels for questions, feedback, and discussion are:
+
+*   GitHub Issues: For bug reports, feature requests, and specific technical questions related to the code. Please check existing issues before creating a new one. https://github.com/Esrbwt1/helios_protocol/issues
+*   GitHub Discussions: (If you enabled it) For general Q&A, broader ideas, and community discussions. https://github.com/Esrbwt1/helios_protocol/discussions
+
+As the community grows, additional channels may be established.
+
 # License
 (To be decided - Likely MIT or Apache 2.0 for the open-source code)
 This project is in active early development. Features and architecture are subject to change.
